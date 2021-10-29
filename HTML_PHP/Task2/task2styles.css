@@ -1,0 +1,6 @@
+body {background-color:#adefd1;}
+h1, h2 {background-color:#00203f; color:#adefd1; margin:-9px; border:5px solid #00203f}
+p {color:#00203f; font-size:20px}
+.locCoords {display:none;}
+.locMap {display:none;}
+.locTime {display:none;}

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        a:link#button_link, a:visited#button_link {
+            background-color: #f44336;
+            color: white;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        a:hover#button_link, a:active#button_link {
+            background-color: red;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        .multistripe tr:nth-child(even) {
+            Background-color: rgba(150, 212, 212, 0.4);
+        }
+        .multistripe td:nth-child(even), .multistripe th:nth-child(even) {
+            Background-color: rgba(150, 212, 212, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <h1 id="start" style="font-size:60px;">My First Heading</h1>
+    <p>My First Paragraph.</p>
+    <p title='John "Shotgun" Nelson'>This is a Double quote paragraph.</p>
+    <p title="John 'Shotgun' Nelson">This is a Single quote paragraph.</p>
+    <hr>
+    <h2 style="font-size:120px;">The style Attribute</h2>
+    <p>The style attribute is used to add styles to an element, such as color:</p>
+
+    <p style="color:red;">This is a red paragraph.</p>
+    
+    <p><b>This text is bold</b></p>
+    <p><strong>This text is important!</strong></p>
+    <p><del>This text is crossed out</del></p>
+    <p><ins>This text is underlined.</ins></p>
+    <p>This is <sub>subscripted</sub> text.</p>
+    <p>This is <sup>superscripted</sup> text.</p>
+    
+    <p>Below is a quote: <q>This is a quote.</q></p>
+    <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+    
+    <address>
+    Written by John Doe.<br>
+    Visit us at:<br>
+    Example.com<br>
+    Box 564, Disneyland<br>
+    USA
+    </address>
+    <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+    <bdo dir="rtl">This text will be written from right to left</bdo>
+    <bdo dir="ltr">This text will be written from right to left</bdo>
+    
+    <!-- This is a comment -->
+    <!-- <p>This is a hidden paragraph</p> -->
+    <!-- 
+        This
+        is
+        a
+        multiline
+        comment
+        -->
+        
+    <p>This <!-- Comment --> is a commented paragraph</p>
+    
+    <h3 style="background-color:Black;color:Tomato;font-size:40px;border:5px solid Tomato;">Hello World</h1>
+    <p style="background-color:Tomato;color:Black;font-size:30px;border:5px solid Black;">Lorem ipsum...</p>
+    
+    <a id="default_link" href="https://www.w3schools.com/">Visit W3Schools.com!</a>
+    <a id="button_link" href="https://www.youtube.com/" target="blank">Youtube</a>
+    
+    <a id="button_link" href="#start">Jump to start</a>
+    
+    <p><img src="testimage.png" alt="Test Image" style="float:right;width:384px;height:216px;">The image will float to the right of the text.</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p><img src="testimage.png" alt="Test Image" style="float:left;width:384px;height:216px;">The image will float to the left of the text.</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p style="background-image: url('testimage.png');background-size:288px 162px;color:white;font-size:20px;padding:65px">This is a paragraph with a background image of my Portal 2 Glitchless Speedrun.</p>
+    <br>
+    <p>The below image will be of my speedrun if the browser is full screen. If not it will be of an alien.
+    <br>
+    <br>
+    <picture>
+        <source media="(min-width: 1000px)" srcset="testimage.png">
+        <img src="smalltestimage.png">
+    </picture>
+    <br>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>ID</th>
+        </tr>
+        <tr>
+            <td>Jack</td>
+            <td>24</td>
+            <td>1234</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>30</td>
+            <td>4321</td>
+        </tr>
+    <table>
+    <br>
+    <table>
+        <caption>Employee ID's</caption>
+        <tr>
+            <th colspan="2">Name and Age</th>
+            <th>ID</th>
+        </tr>
+        <tr>
+            <td>Jack</td>
+            <td>24</td>
+            <td>1234</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>30</td>
+            <td>4321</td>
+        </tr>
+    <table>
+    <br>
+    <table class="multistripe">
+        <caption>Employee ID's Colorized</caption>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>ID</th>
+        </tr>
+        <tr>
+            <td>Jack</td>
+            <td>24</td>
+            <td>1234</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>30</td>
+            <td>4321</td>
+        </tr>
+    <table>
+    <br>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+    <br>
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+    <br>
+    <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+    </dl>
+    <br>
+    <ul>
+        <li>Coffee</li>
+        <ul>
+            <li>Black</li>
+            <li>Latte</li>
+            <li>Flat white</li>
+        </ul>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+    
+    <div>Hello World</div>
+    <span>Hello World</span>
+    <br>
+    <div style="background-color:black;color:white;padding:20px;">
+        <h2>London</h2>
+        <p>London is the capital city of England and the United Kingdom. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    </div>
+    <br>
+    <p>My mother has <span style="color:blue;font-weight:bold">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold">dark green</span> eyes.</p>
+    <br>
+    <iframe src="https://www.youtube.com/" name="iframe_a" title="Iframe Example"></iframe>
+    <p><a href="https://www.youtube.com/" target="iframe_a">Youtube.com</a></p>
+
+</body>
+</html>
